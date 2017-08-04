@@ -1,0 +1,75 @@
+/* Landing page CSS */
+
+.blurb {
+    color: #94D0F9;
+}
+
+/* HERO */
+
+#index-banner {
+    height: 650px;
+    color: red;
+}
+
+.mid {
+    padding-top: 11%;
+    max-width: 50%;
+    margin:0 15%;
+}
+
+
+/* Parallax Content */
+
+.parallax-content {
+    height: 400px;
+}
+
+/* EVENTS */
+
+.events  {
+    background: #F2F1EF;
+    width: 100%;
+    max-width: 2500px;
+}
+
+.events-section {
+    width: 70%;
+    max-width: 1280px;
+    margin: auto;
+    height: 400px;
+}
+
+.events-row {
+    padding-top: 5%;
+}
+
+/* FINAL CTA */
+
+.cta-cont {
+    height: 400px;
+}
+
+.center h5, h3 {
+    margin-bottom: 50px;
+}
+
+.middle {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.row .middle {
+    padding: 45px 15px;
+}
+
+.mid-border {
+    border: 0 solid lightgray;
+    border-right-width: 0.5px;
+}
+
+/* Footer */
+
+
+

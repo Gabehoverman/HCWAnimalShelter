@@ -1,0 +1,18 @@
+/* CSS for the events page */
+.parallax-container {
+    height: 500px;
+}
+
+.mid {
+    margin: 10%;
+}
+
+#inline {
+    display: inline-block;
+}
+
+.description {
+    padding-top: 15px;
+    width: 80%;
+    display: inline-block;
+}

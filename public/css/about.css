@@ -1,0 +1,55 @@
+/* CSS for the about page */
+.parallax-container {
+    height: 500px;
+}
+
+.mid {
+    margin: 10%;
+}
+
+#inline {
+    display: inline-block;
+}
+
+.description {
+    padding-top: 15px;
+    width: 80%;
+    display: inline-block;
+}
+
+.middle {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.row .middle {
+    padding: 45px 15px;
+}
+
+.mid-border {
+    border: 0 solid lightgray;
+    border-right-width: 0.5px;
+}
+
+.stats-row {
+    background: #eeeeee;
+    margin-bottom: 0;
+}
+
+#header {
+    padding: 45px 15px 30px;
+}
+
+.icon-block {
+    margin: 50px 0;
+}
+
+.cta {
+    height: 1px;
+}
+
+.cta .middle {
+    margin-top: 75px;
+}

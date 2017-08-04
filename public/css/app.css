@@ -1,0 +1,150 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/* Utilities */
+.large-text-1{ font-size: 3em; }
+.large-text-2{ font-size: 2em; }
+.large-text-3{ font-size: 1.5em; }
+.large-text-4{ font-size: 1.25em; }
+
+.smaller-text-1{font-size: 85%;}
+.smaller-text-2{font-size: 65%;}
+.smaller-text-3{font-size: 50%;}
+.smaller-text-4{font-size: 25%;}
+
+/* Header and Footer Styling */
+.logo-image{
+    -webkit-border-radius:1em;
+    -moz-border-radius:1em;
+    border-radius:1em;
+    max-height: 55px;
+    vertical-align: middle;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.no-margin{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.horizontal-line{
+    height: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.horizontal-line-grey{
+    height: 0;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.float-right{
+    float: right;
+}
+
+.carousel.carousel-slider {
+    top: 0;
+    left: 0;
+    height: calc(100%);
+}
+
+/* Forms */
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2196f3;
+    box-shadow: 0 1px 0 0 #2196f3;
+}
+
+.site-slogan{
+    font-size: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}
+
+
+/* Cards */
+.card-background-image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.animal-thumbnail{
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border: 1px solid grey;
+    border-radius: 0.5em;
+}
+
+
+
+/**** Added Automatically ****/
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    background: #5e5e5e;
+    margin: 0;
+}
+

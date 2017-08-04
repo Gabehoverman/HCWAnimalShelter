@@ -1,0 +1,14 @@
+.admin-card{
+    display: block;
+}
+
+.centered-input{
+    text-align: center;
+}
+
+.error-message{
+    padding: 0.5em;
+    color: white;
+    margin-bottom: 0.5em;
+    border-radius: 0.6em;
+}
